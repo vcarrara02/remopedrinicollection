@@ -10,24 +10,11 @@ header {
   background-color: #bca674; 
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.header-container img {
-  max-width: 150px !important; 
+header img {
+  width: 350px !important;
   height: auto !important;
-  display: inline-blcok !important;
-  margin: 0 !important;
-}
-
-.header-container h1 {
-  font-size: 28px;
-  margin: 0;
-  color: #bca674;
+  display: block;
+  margin: 0 auto;
 }
 
 nav {
