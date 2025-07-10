@@ -27,13 +27,14 @@ header img {
 .header-container img {
   max-width: 450px; 
   height: auto;
+  margin: 0;
 }
 
 .header-container h1 {
   font-size: 28px;
   margin: 0;
+  color: #bca674;
 }
-
 
 nav {
   background-color: #ebbe5d;
