@@ -5,7 +5,7 @@
   <title>I - Cantade</title>
   <link rel="stylesheet" href="stile.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <style>
+  <style>
     .chapter {
       display: flex;
       gap: 2em;
@@ -16,11 +16,11 @@
     .column {
       flex: 1;
     }
-.italian {
+
+    .italian {
       font-size: 1.1em;
       line-height: 1.8;
     }
-
 
     .english {
       font-size: 1.1em;
@@ -30,11 +30,29 @@
     h1 {
       text-align: center;
     }
+
+    nav {
+      background-color: #ebbe5d;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fdebda;
+    }
   </style> 
 </head>
 
 <body>
-<nav>
+
+  <nav>
     <a href="index.html">Home</a>
     <a href="intro.html">Remo Pedrini and his language</a>
     <a href="I.html">Cantade</a>
@@ -44,14 +62,19 @@
     <a href="note.html">Notes</a>
   </nav>
 
-<main>
+  <main>
     <h1>Cantade</h1>
-</p>
-    <div class="chapter">
-      <div class="column bg">
-        <p> An vèt s'al funsiuna </p>
-</div>
 
-<div class="column en">
-  <p> Let's see </p>
-</div>
+    <div class="chapter">
+      <div class="column italian">
+        <p>An vèt s'al funsiuna</p>
+      </div>
+
+      <div class="column english">
+        <p>Let's see if it works</p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
