@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I - Cantade</title>
+  <link rel="stylesheet" href="stile.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+    .chapter {
+      display: flex;
+      gap: 2em;
+      margin: 2em auto;
+      max-width: 1200px;
+    }
+
+    .column {
+      flex: 1;
+    }
+.italian {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+
+    .english {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style> 
+</head>
+
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="intro.html">Remo Pedrini and his language</a>
+    <a href="I.html">Cantade</a>
+    <a href="II.html">Lociade</a>
+    <a href="III.html">Laùr e mestér de óm</a>
+    <a href="IV.html">Grignade</a>
+    <a href="note.html">Notes</a>
+  </nav>
+
+<main>
+    <h1>Cantade</h1>
+</p>
+    <div class="chapter">
+      <div class="column bg">
+        <p> An vèt s'al funsiuna </p>
+</div>
+
+<div class="column en">
+  <p> Let's see </p>
+</div>
