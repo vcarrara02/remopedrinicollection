@@ -19,7 +19,7 @@ header img {
 
 .header-container {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 20px;
 }
 
