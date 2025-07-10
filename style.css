@@ -10,13 +10,6 @@ header {
   background-color: #bca674; 
 }
 
-header img {
-  width: 450px !important;
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
-
 .header-container {
   display: flex;
   align-items: center;
