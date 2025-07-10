@@ -26,7 +26,8 @@ header img {
 
 .header-container img {
   max-width: 450px; 
-  height: auto;
+  height: auto !important;
+  display: inline-blcok !important;
   margin: 0;
 }
 
